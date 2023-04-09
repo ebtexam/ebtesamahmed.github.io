@@ -1,0 +1,14 @@
+<html>
+  <head>
+    <title>OK Button Demo</title>
+  </head>
+  <body>
+    <button id="ok-button">OK</button>
+    <script>
+      const okButton = document.getElementById('ok-button');
+      okButton.addEventListener('click', () => {
+        console.log('OK button clicked!');
+      });
+    </script>
+  </body>
+</html>
