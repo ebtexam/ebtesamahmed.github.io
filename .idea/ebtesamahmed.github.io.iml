@@ -1,9 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<module type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager" inherit-compiler-output="true">
-    <exclude-output />
-    <content url="file://$MODULE_DIR$" />
-    <orderEntry type="inheritedJdk" />
-    <orderEntry type="sourceFolder" forTests="false" />
-  </component>
-</module>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>OK Button Demo</title>
+  </head>
+  <body>
+    <button id="ok-button">OK</button>
+    <script>
+      const okButton = document.getElementById('ok-button');
+      okButton.addEventListener('click', () => {
+        console.log('OK button clicked!');
+      });
+    </script>
+  </body>
+</html>
